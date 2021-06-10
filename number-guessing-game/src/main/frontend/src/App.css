@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+.App-logoImage {
+  height: 250px;
+  width: 400px;
+}
+
+.App-playGameButton{
+  background-color:  #07535E  !important; 
+  border-color: #07535E  !important; 
+}
+.App-easyLevel{
+  background-color: #008EB3 !important;
+  border-color: #008EB3!important;
+} 
+.App-hardLevel{
+  background-color: #FDB727 !important;
+  border-color: #FDB727 !important;
+}
+
+
+.App-gameHeaderText{
+  float: left;
+ margin-left:200px;
+ margin-top: 10px;
+}
+
+.App-numberHints{
+  float: right;
+  margin-right: 200px;
+  background-color: #FDB727;
+}
+.App-level{
+ float: left;
+ margin-left:225px;
+}
+.App-hint{
+  float: left;
+  margin-left:500px;
+ }
+
+ .App-guessedNumbers{
+  display: inline;
+ }
+ .App-status{
+   float: left;
+ }
+
+ .App-buttonSubmit{
+   float:left;
+   background-color:  #07535E  !important; 
+   border-color: #07535E  !important; 
+ }
+ .App-buttonNewGame{
+  float:right;
+  background-color: #008EB3 !important;
+  border-color: #008EB3!important;
+ }
+ .App-homeNav{
+   float: left;
+ }
+ .App-buttonHome{
+   float:left;
+   margin-left: 20px;
+   margin-top: 20px;
+   background-color: #FDB727 !important;
+   border-color: #FDB727 !important;
+ }
+ .App-hiddenNumber{
+   float: left;
+ }
+ .App-guesses{
+   float: left;
+   margin-left: 500px;
+ }
+
+.App-inputForm{
+  width: 400px !important;
+  margin-left: 500px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
