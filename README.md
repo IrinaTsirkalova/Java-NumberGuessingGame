@@ -25,5 +25,6 @@ When the player wins or loses, he will receive a pop-up message.
 When starting the project for the frontend part, please use npm install and then npm start.
 
 **Technologies used:**
--ReactJS
--Java
+
+- ReactJS;
+- Java;
