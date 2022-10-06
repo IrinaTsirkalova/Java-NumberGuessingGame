@@ -1,7 +1,7 @@
 # Number Guessing Game
 
 **Description:**
-The project is a number-guessing game. For the backend, I am using Maven application with java. And for frondend - ReactJS.
+The project is a number-guessing game. For the backend, I am using Maven application with java. And for the frondend - ReactJS.
 
 There are two levels of difficulty: easy and hard.
 Home screen:
