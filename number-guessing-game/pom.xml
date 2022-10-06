@@ -81,7 +81,7 @@
 							<goal>npm</goal>
 						</goals>
 					</execution>
-					<execution>
+					<execution> 
 						<id>react-scripts build</id>
 						<goals>
 							<goal>npm</goal>

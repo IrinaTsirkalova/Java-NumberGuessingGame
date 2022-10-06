@@ -1,105 +1,127 @@
 .App {
   text-align: center;
 }
+.App-containerFlex{
+  display: flex !important;
+  flex-direction: row !important;
+  flex-grow:1 !important;;
+  align-items: stretch !important;
+  overflow: hidden !important;
+  height: 100% !important;
+}
+.App-column-1{
+  width: 20%;
+}
+.App-column-2{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 27%;
+  margin: 0;
+  border: 1px solid #07535E;
+  border-radius: 10px;
+  padding: 50px;
+  margin-top: 20px;
+}
+.App-column-3{
+  text-align: left;
+  width: 30%;
+}
 .App-logoImage {
   height: 250px;
   width: 400px;
 }
-
-.App-playGameButton{
+.App-playGameBtn{
   background-color:  #07535E  !important; 
   border-color: #07535E  !important; 
 }
-.App-easyLevel{
+.App-easyLevelBtn{
   background-color: #008EB3 !important;
   border-color: #008EB3!important;
 } 
-.App-hardLevel{
+.App-hardLevelBtn{
   background-color: #FDB727 !important;
   border-color: #FDB727 !important;
 }
 
-
-.App-gameHeaderText{
+.App-homeNav{
   float: left;
- margin-left:200px;
- margin-top: 10px;
-}
-
-.App-numberHints{
-  float: right;
   margin-right: 200px;
-  background-color: #FDB727;
+}
+.App-homeBtn{
+  float:left;
+  margin-left: 100px;
+  margin-top: 20px;
+  background-color: #FDB727 !important;
+  border-color: #FDB727 !important;
+}
+.App-gameHeaderTxt{
+  float: left;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 0;
+  padding: 10px;
+  padding-bottom: 30px;
+  background-color: #07535E;
+  color: white;
+}
+.App-gameHeaderTries{
+  text-align: center;
+  border-radius: 0 0 10px 10px;
+  background-color:#008EB3;
+  color: white;
+  padding: 10px;
+  padding-bottom: 30px;
 }
 .App-level{
- float: left;
- margin-left:225px;
+ text-align: left;
+ margin-top: 20px;
 }
-.App-hint{
-  float: left;
-  margin-left:500px;
+.App-levelHint{
+  text-align: left;
+  margin-top:20px;
+  color: #07535E;
  }
-
  .App-guessedNumbers{
   display: inline;
  }
- .App-status{
-   float: left;
+ .App-gameStatus{
+  padding-top: 10px;
+  float: left;
  }
-
- .App-buttonSubmit{
+ .App-btnSubmit{
    float:left;
    background-color:  #07535E  !important; 
    border-color: #07535E  !important; 
  }
- .App-buttonNewGame{
+ .App-btnNewGame{
   float:right;
   background-color: #008EB3 !important;
   border-color: #008EB3!important;
  }
- .App-homeNav{
-   float: left;
- }
- .App-buttonHome{
-   float:left;
-   margin-left: 20px;
-   margin-top: 20px;
-   background-color: #FDB727 !important;
-   border-color: #FDB727 !important;
- }
- .App-hiddenNumber{
-   float: left;
- }
  .App-guesses{
    float: left;
-   margin-left: 500px;
+   padding-bottom: 20px;
  }
-
+ .App-form{
+  padding-bottom: 20px;
+ }
 .App-inputForm{
-  width: 400px !important;
-  margin-left: 500px;
+  margin-top: 100px;
+  width:auto  !important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.App-numberHints{
+  position: relative;
+  float: right;
+  padding: 15px;
+  background-color: #FDB727;
+  box-shadow: 20px 25px 11px -3px rgba(156,156,156,1);
+}
+#numberHintsTitle{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.App-alertPopUp{
+  background-color: #008EB3 !important;
+  border-color: #008EB3!important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
