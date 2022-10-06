@@ -70,7 +70,7 @@ public class GuessNumberServiceImpl implements GuessNumberService {
 				numbers.add(userNumber);
 				game.setUserNumber(numbers);
 				game.setWin(true);
-				game.setStatus("Congratulations!!! You won!!! ");
+				game.setStatus("The number was " + game.getHiddenNumber() + " ! Congratulations!!! You won!!! ");
 				return;
 			} else {
 				numbers.add(userNumber);
@@ -78,7 +78,7 @@ public class GuessNumberServiceImpl implements GuessNumberService {
 				game.setTriesLeft(game.getTriesLeft() - 1);
 				game.setStatus("Wrong!!! Try again. ");
 				if (game.getTriesLeft() == 0) {
-					game.setStatus("You lost!!!");
+					game.setStatus("The number was " + game.getHiddenNumber() + " ! You lost!!!");
 				}
 			}
 

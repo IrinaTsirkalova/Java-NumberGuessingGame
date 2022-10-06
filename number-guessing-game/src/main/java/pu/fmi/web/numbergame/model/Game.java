@@ -7,7 +7,7 @@ public class Game {
 	private String id;// game id
 	private String level;// easy or hard
 	private int hiddenNumber;// the number which the user have to guess
-	private List<Integer> userNumber;// list of the numbers the user have submitted
+	private List<Integer> userNumbers;// list of the numbers the user have submitted
 	private int triesLeft = 5;
 	private String hint;// Tells the user the range of numbers to guess
 	private boolean win;// determine the status/e.g."Try again. You won. You lost."/
@@ -31,11 +31,11 @@ public class Game {
 	}
 
 	public List<Integer> getUserNumber() {
-		return userNumber;
+		return userNumbers;
 	}
 
 	public void setUserNumber(List<Integer> userNumber) {
-		this.userNumber = userNumber;
+		this.userNumbers = userNumber;
 	}
 
 	public int getTriesLeft() {

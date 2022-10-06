@@ -13,9 +13,6 @@ import pu.fmi.web.numbergame.model.Game;
 @RequestMapping("/api")
 public class GuessNumberApi {
 
-	// @RestController- handler методите на Controller-a GuessNumberApi
-	// не връщат view, а нещо, което да отиде в response body-то
-
 	@Autowired
 	private GuessNumberService guessNumberService;
 
