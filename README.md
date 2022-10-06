@@ -4,6 +4,7 @@
 The project is a number-guessing game. For the backend, I am using Maven application with java. And for the frondend - ReactJS.
 
 There are two levels of difficulty: easy and hard.
+
 Home screen:
 ![Screenshot 2022-10-06 at 14-34-14 Guess the number](https://user-images.githubusercontent.com/66736887/194370605-115c2f82-48c0-4a6c-8fcc-bd443d318fba.png)
 
